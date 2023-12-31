@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Postavljanje karakter seta na UTF-8 -->
+    <meta charset="UTF-8">
+
+    <!-- Podešavanje viewport-a za pravilno prikazivanje na različitim uređajima -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Naslov stranice -->
+    <title>Kreditna kartica</title>
+
+    <!-- Povezivanje sa eksternim CSS fajlom -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Glavni kontejner za kreditnu karticu -->
+    <div class="container">
+        <!-- Hederski deo sa logom i naslovom "Master Card" -->
+        <header>
+            <!-- Kontejner za logotip i naslov "Master Card" -->
+            <span class="logo">
+                <!-- Slika logotipa -->
+                <img src="images/logo.png" alt="">
+                <!-- Naslov "Master Card" -->
+                <h5>Master Card</h5>
+            </span>
+            
+            <!-- Slika čipa na kartici -->
+            <img src="images/chip.png" alt="" class="chip">
+        </header>
+
+        <!-- Detalji o kartici, kao što su broj kartice, vlasnik i datum važenja -->
+        <div class="card-details">
+            <!-- Sekcija sa imenom i brojem kartice -->
+            <div class="name-number">
+                <!-- Podnaslov "Card Number" -->
+                <h6>Card Number</h6>
+                <!-- Broj kartice -->
+                <h5 class="number">8050 50 40 2030 3020</h5>
+                <!-- Ime vlasnika kartice -->
+                <h5 class="name">Haris Pestalic</h5>
+            </div>
+            
+            <!-- Sekcija sa datumom važenja -->
+            <div class="valid-date">
+                <!-- Podnaslov "Valid Thru" -->
+                <h6>Valid Thru</h6>
+                <!-- Datum važenja kartice -->
+                <h5>05/28</h5>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

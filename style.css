@@ -1,0 +1,91 @@
+/* Uvoz fontova putem Google Fonts servisa */
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital@1&family=Dancing+Script&family=Kalnia&family=Libre+Baskerville:wght@400;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400&family=Poppins:wght@300;400;500;600&display=swap');
+
+/* Globalna stilizacija za sve elemente */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    /* Postavljanje različitih fontova za tekst na stranici */
+    font-family: 'Courier Prime', monospace;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Kalnia', serif;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Stilizacija tijela stranice */
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #e3f2fd;
+}
+
+/* Stilizacija glavnog kontejnera */
+.container {
+    position: relative;
+    background-image: url("images/bg.png");
+    background-size: cover;
+    padding: 25px;
+    border-radius: 28px;
+    max-width: 380px;
+    width: 100%;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Stilizacija hedera i loga */
+header, .logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Stilizacija logotipa */
+.logo img {
+    width: 48px;
+    margin-right: 10px;
+}
+
+/* Stilizacija naslova */
+h5 {
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+}
+
+/* Stilizacija čipa */
+.chip {
+    width: 60px;
+    margin-left: auto; /* Čip se pozicionira udesno */
+}
+
+/* Stilizacija dodatnih informacija (datum važenja) */
+h6 {
+    color: #fff;
+    font-size: 10px;
+    font-weight: 400;
+}
+
+/* Stilizacija broja kartice */
+h5.number {
+    margin-top: 4px;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+/* Stilizacija imena vlasnika kartice */
+h5.name {
+    margin-top: 20px;
+}
+
+/* Stilizacija detalja kartice */
+.container .card-details {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
